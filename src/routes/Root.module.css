@@ -1,0 +1,46 @@
+.body {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  font-size: 10px;
+  display:grid;
+  grid-template-columns: 300px 1fr;
+}
+
+.sidebar {
+  background-image:linear-gradient(royalblue, rgb(28, 56, 141), rgb(3, 21, 75)); 
+  color:antiquewhite;
+  font-size: 2.4rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  padding: 0.5em;
+  border-radius: 10px;
+}
+
+.link:link,
+.link:visited,
+.link:active {
+  color:antiquewhite
+}
+
+.link:hover {
+  background-color: white;
+  color:midnightblue;
+}
+
+.cartTotal {
+  background-color:antiquewhite;
+  color: midnightblue;
+  border-radius: 10px;
+}
+
+.child {
+  overflow:scroll;
+}

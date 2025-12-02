@@ -1,0 +1,36 @@
+.cardframe {
+  width: 200px;
+  height: 350px;
+  border: 1px solid lightgray;
+  box-shadow: 5px 5px 10px darkgray;
+  background-color:midnightblue;
+  
+  
+}
+
+.image {
+  width: 100%;
+  height: 200px;
+  object-fit: fill;
+  background-image:url('/public/smartphone.svg')
+}
+
+.label {
+  width: 200px;
+  height: 150px;
+  color:antiquewhite;
+  display: grid;
+  grid-template-columns: 50px 100px 50px;
+  grid-template-rows: 50px 50px 50px;
+  justify-items: center;
+  align-items: center;
+}
+
+.cardTitle {
+  grid-column: 1 / 4;
+  font-size: 1rem;
+  max-width: 200px;
+  padding: 3px;
+  text-align: center;
+}
+

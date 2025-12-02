@@ -1,0 +1,11 @@
+.button {
+  max-height: 40px;
+  max-width: 90px;
+  padding: 3px;
+  margin: 5px;
+  background-color:antiquewhite;
+  color:midnightblue;
+  font-family: 'schoolbellregular';
+  font-size: 1.2rem;
+  border-radius: 15px;
+}

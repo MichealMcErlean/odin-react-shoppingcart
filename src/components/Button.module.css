@@ -1,0 +1,19 @@
+.smallButton {
+  color: midnightblue;
+  background-color:antiquewhite;
+  border-radius: 50%;
+  font-size: 2.4rem;
+  font-weight:900;
+  height: 40px;
+  width: 40px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.smallButton:active {
+  border: 2px solid antiquewhite;
+  background-color:midnightblue;
+  color:antiquewhite;
+}

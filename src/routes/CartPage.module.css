@@ -1,0 +1,13 @@
+.cartframe {
+  margin: 0 clamp(50px, 10%, 150px);
+  display: grid;
+  grid-template-columns:1fr;
+  grid-auto-rows: min-content;
+  gap: 2rem;
+  border-radius: 15px;
+}
+
+.cartframeh1 {
+  text-align: center;
+  font-size: 2.4rem;
+}
